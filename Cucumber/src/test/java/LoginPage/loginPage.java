@@ -10,6 +10,8 @@ public class loginPage {
 	By btn_login= By.id("login");
 	
 	public loginPage(WebDriver driver) {
+		
+		
 		this.driver=driver;
 		
 		if(!driver.getTitle().equals("hello world"))
@@ -38,5 +40,7 @@ public class loginPage {
 		driver.close();
 		
 	}
+	
+	
 
 }

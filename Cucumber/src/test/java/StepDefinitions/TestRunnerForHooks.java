@@ -13,5 +13,6 @@ monochrome = true,
 plugin={"pretty","html:target/HtmlReports/reports.html"})
 
 public class TestRunnerForHooks {
+	
 
 }
